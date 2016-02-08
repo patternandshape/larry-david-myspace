@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h4 {
+  color: #C3703A;
+  background-color: #FFCD9C;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.container {
+  border: 2px solid #FFCD9C;
+  max-width: 630px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.friendNumber {
+  color: red;
+}
+
+.friendAmount {
+  font-size: 12px;
+  font-weight: 900;
+  padding-left: 10px;
+  margin-top: -15px;
+}
+
+figcaption {
+  padding-left: 15px;
+}
+
+.friendName {
+  float: left;
+  width: 115px;
+  color: #165AA3;
+  text-align: center;
+  margin: 0 40px 0 0;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.viewAll {
+  font-weight: 900;
+  color: red;
+  text-align: right;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-bottom: auto;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 415px;
+  left: 425px;
+}
+
+img {
+  border: 2px solid #165AA3;
+  margin-top: 5px;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.onlineGif {
+  max-height: 22px;
+  border: none;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+/*border top color: #FFCD9C
